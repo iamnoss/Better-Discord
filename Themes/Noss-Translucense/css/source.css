@@ -135,7 +135,8 @@
     border-radius: var(--app-radius);
     overflow: hidden;
     z-index: 1;
-    backdrop-filter: blur(var(--app-blur));
+    /* backdrop-filter: blur(var(--app-blur)); */
+    backdrop-filter: unset;
   }
   
   .typeMacOS-3V4xXE + .app-3xd6d0 .layers-OrUESM {
